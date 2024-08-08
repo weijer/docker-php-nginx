@@ -1,6 +1,6 @@
 FROM php:8.3.10-cli-alpine3.19
 LABEL Maintainer="weijer <weiwei163@foxmail.com>" \
-      Description="Webman Lightweight container with PHP 8.1 based on Alpine Linux."
+      Description="Webman Lightweight container with PHP 8.3 based on Alpine Linux."
 
 # Add basics first
 RUN apk update && apk upgrade && apk add --no-cache \
